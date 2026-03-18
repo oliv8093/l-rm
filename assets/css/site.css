@@ -1,3 +1,75 @@
-body{
-    background-color: white;
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #bd4646;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #bd4646;
+}
+
+
+.navbar {
+width: 100%; 
+background-color: #ffffff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+}
+
+.nav-left .nav-list {
+list-style: none;
+display: flex;
+gap: 30;
+margin: 0;
+padding: 0;
+}
+
+.nav-left .nav-list li a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: color 0.3s;
+}
+
+.nav-left .nav-list li a:hover {
+color: #bd4646;
+}
+
+.nav-right a.btn-primary {
+text-decoration: none;
+padding: 8px 18px;
+margin-left: 15px;
+border-radius: 5px;
+font-weight: 500;
+transition: background-color 0.3s, color 0.3s;
+border: 1px solid #bd4646;
+color: #bd4646;
+}
+
+.nav-right a.btn-primary {
+background-color: #bd4646;
+color: #fff;
+}
+
+.nav-right a.btn-primary:hover {
+    background-color: #bd4646;
+    background-color: #fff;
+}
+.nav-right a.btn-primary:hover {
+    background-color: #9e3a3a;
+
 }
